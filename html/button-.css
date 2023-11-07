@@ -1,0 +1,63 @@
+* {
+    margin: 20px;
+}
+
+.bts {
+    background-color: wheat;
+    display: inline flex;
+    padding: 30px;
+    gap: 10px;
+    height: 300px;
+    width: 600px;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    border: 5px solid green;
+
+}
+
+.bts button {
+    height: 80px;
+    width: 120px;
+    background-color: red;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.bts button:nth-child(3) {
+    background-color: greenyellow;
+    border-radius: 80px;
+    justify-content: start;
+    position: absolute;
+    top: 10px;
+    margin: 10px;
+}
+
+.bts button:nth-of-type(2) {
+    background-color: brown;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.bts button:first-child {
+    background-color: darkgrey;
+    border-radius: 0px;
+    position: absolute;
+    top: 120px;
+    left: 10px;
+    bottom: 20px;
+}
+
+.bts button:last-child {
+    background-color: aqua;
+    border-radius: 120px;
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    right: 10px;
+}

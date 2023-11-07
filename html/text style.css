@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+
+.motogp {
+
+    color: rgb(20, 20, 20);
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: lighter;
+}
+
+.par span {
+    color: blue;
+    font-style: italic;
+}
+
+.par .fed {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(43, 175, 120);
+}
+
+.par .ch {
+    letter-spacing: 10px;
+    word-spacing: 10px;
+}

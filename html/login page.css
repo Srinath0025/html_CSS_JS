@@ -1,0 +1,31 @@
+* {
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.page {
+    background-color: rgba(164, 56, 214, 0.507);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 230px;
+    justify-content: space-evenly;
+}
+
+.page button:nth-child(3) {
+    border: none;
+    width: 180px;
+    border-radius: 15px;
+    position: relative;
+    align-items: center;
+}
+
+.page button:last-child {
+    border: none;
+    position: relative;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 180px;
+    outline: 20px;
+}

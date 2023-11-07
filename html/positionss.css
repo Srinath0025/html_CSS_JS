@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    background-color: grey;
+    height: 60vh;
+    width: 40vw;
+    position: relative;
+}
+
+.page .box {
+    background-color: black;
+    height: 150px;
+    width: 150px;
+    top: 10px;
+    left: 10px;
+}
+
+.page .box1 {
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+.page .box2 {
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+.page .box3 {
+    background-color: yellow;
+    height: 150px;
+    width: 150px;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.page .box4 {
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    bottom: 220px;
+    left: 300px;
+    position: absolute;
+}

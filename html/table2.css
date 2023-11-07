@@ -1,0 +1,11 @@
+.week {
+    background-color: rgb(201, 196, 196);
+}
+
+.work td {
+    padding: 10px;
+    background-color: pink;
+    height: 10px;
+    width: 10px;
+
+}
