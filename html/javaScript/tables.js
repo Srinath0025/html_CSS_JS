@@ -1,5 +1,5 @@
-for (let i=1;i*10;i+=1){
+for (let i=1;i<11;i+=1){
 
-    console.log(i)
-    
+    console.log(`${i} x 2 = ${i*5}`)
+
 }
