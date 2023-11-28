@@ -1,0 +1,29 @@
+*{
+    margin: 10px;
+}
+.box{
+    height: 250px;
+    width: 250px;
+    background-color: gray;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+}
+.btn1{
+
+    height: 30px;
+    width: 80px;
+    background-color: aqua;
+    border-radius: 48%;
+    cursor: pointer;
+}
+.btn2{
+
+    height: 30px;
+    width: 80px;
+    background-color: aqua;
+    border-radius: 48%;
+    cursor: pointer;
+}
