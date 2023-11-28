@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+}
+.red {
+
+    height: 100px;
+    width: 100px;
+    background-color: rgb(219, 123, 123);
+    transition: 0.5s;
+}
+
+.red.rb{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.blue{
+
+    height: 100px;
+    width: 100px;
+    background-color: rgb(162, 162, 246);
+    transition: 0.5s;
+}
+
+.blue.bl{
+
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: blue;
+
+}
+
+.green{
+
+    height: 100px;
+    width: 100px;
+    background-color: rgb(170, 247, 170);
+    transition: 0.5s;
+
+}
+
+.green.gr{
+
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: green;
+}
