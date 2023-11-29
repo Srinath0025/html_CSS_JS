@@ -6,11 +6,10 @@
     width: 250px;
     background-color: gray;
 }
-
-.btn{
-    display: flex;
-    align-items: center;
+.box.b{
+    box-shadow: 10px 20px 30px;
 }
+
 .btn1{
 
     height: 30px;
