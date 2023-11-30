@@ -1,0 +1,35 @@
+nav{
+    height: 80px;
+    width: 100%;
+    background: lightblue;
+    display: flex;
+    align-items: center;
+}
+
+
+#nav1.open-nav1{
+    
+    top: 0;
+    height: 100vh;
+    width: 300px;
+    background-color: blue;
+    right: -300px;
+    position: fixed;
+}
+#nav1.close-nav1{
+    right: 0px;
+
+}
+
+nav .close-nav{
+    top: 0;
+    left: -320px;
+    position: fixed;
+    height: 100vh;
+    width: 300px;
+    background: lightcoral;
+    transition: 0.5s;
+}
+nav .open-nav{
+    left: 0;
+}
