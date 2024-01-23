@@ -1,0 +1,35 @@
+body{background-color:white;}
+
+.sub .l{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color:gray;
+    padding-right: 860px;
+    
+}
+
+.sub{
+    height: 30px;
+    /* width: 280px; */
+    background-color:rgba(112, 243, 219, 0.501);
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    justify-content: end;
+    font-size: 25px;
+    border-radius: 10px;
+    list-style: none;
+
+}
+.mcq .qus{
+    font-size: 20px;
+}
+.mcq .qus .ops{
+    font-size: 15px;
+    color: gray;
+}
+.mcq .ans{
+
+    color:green;
+}

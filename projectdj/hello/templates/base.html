@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./../static/hello.css">
+</head>
+<body>
+    <ul class="sub">
+        <li class="l"><b>LOGO</b></li>
+        <li><a href="{% url 'Home' %}">Home</a></li>
+        <li><a href="{% url 'About' %}">About</a></li>
+        <li><a href="{% url 'Details' %}">Details</a></li>
+        <li><a href="{% url 'mcq' %}">MCQ</a></li>
+    </ul>
+    {% block content %}
+    <h1> base block </h1>
+    {% endblock %}
+
+</body>
+</html>

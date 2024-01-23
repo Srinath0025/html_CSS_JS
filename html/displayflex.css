@@ -32,7 +32,7 @@
     align-items: start;
     display: flex;
     display: inline-block;
-    overflow-y: auto;
+    overflow-y:auto;
 }
 
 /* .page {

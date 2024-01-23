@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1> Hello</h1> <h1>Welcome {{ name }}</h1>
+
+<ul>
+{% for i in skill %}
+<li>{{ i }}</li>
+{% endfor %}
+
+</ul>
+
+{% if age > 18 %}
+
+<p>You already hava an Voter Id     </p>
+
+{% elif age == 18 %}
+<p>Your apply for Voter ID</p>
+<button >Apply</button>
+
+{% else %}
+<p>Your could not apply for Voter ID</p>
+<button disabled>Apply</button>
+
+{% endif %}
+
+
+<p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse ipsam sint tempore dicta quo nam! Aut ipsam esse aperiam ut qui corporis incidunt at inventore eos. Nobis laboriosam vitae excepturi!</p>
+{% endblock %}

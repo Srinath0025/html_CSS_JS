@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+<link rel="stylesheet" href="./../static/hello.css">
+<div class="mcq">
+<h1>Python MCQ (Multiple Choice Questions)</h1>
+<h3>Here are 1000 MCQs on Python (Chapterwise).</h3>
+<ol>
+    {% for q in questions %}
+    <li class="qus"><p>{{ q.question }}</p>
+    <ol class="ops">        
+        {% for o in q.options %}
+        <li>{{ o }}</li>
+        {% endfor %}
+    </ol><br>
+    <span class="ans">*{{ q.answer }}</span>
+    
+    </li>
+    {% endfor %}
+</ol>
+</div>
+
+{% endblock %}

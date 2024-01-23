@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1> About this Page </h1>
+
+<h2>{{ area }}</h2>
+
+<h3>To learn:</h3>
+<ul>
+{% for i in learn %}
+<li>{{ i }}</li>
+{% endfor %}
+</ul>
+
+{% if age > 15 %}
+<p> <b>You can learn the skill's</b></p>
+
+{% elif age == 15 %}
+<p>You can apply for this skill's</p>
+<button>learn</button>
+
+{% else %}
+<p><b>you can't learn the skill's</b></p>
+<button disabled>learn</button>
+
+{% endif %}
+
+
+
+<p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse ipsam sint tempore dicta quo nam! Aut ipsam esse aperiam ut qui corporis incidunt at inventore eos. Nobis laboriosam vitae excepturi!</p>
+{% endblock %}
